@@ -11,11 +11,6 @@ config_conexion = (
 )
 
 
-
-
- 
-
-
 class Mensajeria:
 
     def __init__(self, nombre_gimnasio, wasap):
@@ -23,6 +18,7 @@ class Mensajeria:
         self.metodo_envio = wasap
 
     def recordatorio_deuda(self, nombre_socio):
+        
         return f"Hola {nombre_socio}, te recordamos que tu cuota esta por vencer"
     
     def wasap(self, telefono, texto):
@@ -34,8 +30,8 @@ class Mensajeria:
 
         return f"Hola {nombre_socio}, tu cuota aumentó a ${monto}."
 
-
     def bienvenida(self, nombre_socio):
+        
         return f"¡Bienvenido {nombre_socio} a {self.gimnasio}! Gracias por sumarte."
 
             
@@ -47,3 +43,4 @@ class Mensajeria:
 
 
         
+
