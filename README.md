@@ -1,10 +1,11 @@
-#Documentación Técnica: Sistema de Gestión para 
+Documentación Técnica: Sistema de Gestión para 
 Unidades de Negocio (Suscripciones) 
 
-##Introducción y Propósito 
+Introducción y Propósito 
 El presente proyecto nace de una observación directa sobre la ineficiencia operativa en negocios de 
 suscripciones, donde el registro manual y el uso de papel limitaban el crecimiento y ponían en riesgo 
 la integridad de la información. 
+
 * ##Hitos de Desarrollo y Escalabilidad 
 A diferencia de sistemas de gestión convencionales, este proyecto fue sometido a pruebas de estrés y 
 optimización para superar los estándares de un negocio pequeño, alcanzando capacidades de nivel 
